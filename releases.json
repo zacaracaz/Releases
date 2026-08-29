@@ -1,0 +1,22 @@
+{
+  "updated": "2026-08-29",
+  "projects": [
+    {
+      "name": "TripTrivia",
+      "description": "Audio-first road trip trivia with a live AI host for the whole family.",
+      "version": "0.1.0",
+      "releaseState": "Alpha",
+      "repo": "zacaracaz/TripTrivia",
+      "downloads": [
+        {
+          "platform": "Android",
+          "label": "APK",
+          "url": "https://github.com/zacaracaz/TripTrivia/releases/latest",
+          "size": null,
+          "sha256": null,
+          "note": "Available via GitHub Releases"
+        }
+      ]
+    }
+  ]
+}

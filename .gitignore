@@ -1,0 +1,21 @@
+# No binary artifacts — downloads are hosted on GitHub Releases
+*.apk
+*.aab
+*.exe
+*.dmg
+*.deb
+*.rpm
+*.msi
+*.zip
+*.tar.gz
+*.7z
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
