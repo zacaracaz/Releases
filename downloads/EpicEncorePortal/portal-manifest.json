@@ -1,28 +1,19 @@
 {
   "updatedAt": "2026-09-13",
-  "portalVersion": "2.0.0",
+  "portalVersion": "2.0.1",
   "featuredAppId": "openrouter-monitor",
-  "portalRelease": {
-    "versionName": "2.0.0",
-    "versionCode": 3,
-    "downloadUrl": "https://github.com/zacaracaz/Releases/releases/download/portal-v2.0.0/EpicEncorePortal-2.0.0.apk",
-    "fileSize": "10.7 MB",
-    "sha256": "0c81c29a00f9966e4c9a0e76b795b98d43df33397e6a793f870a4e222f4f1aa2",
-    "whatsNew": "EpicEncore Portal naming throughout the app, Android package, project paths, update service, and release artifacts, with verified self-updates and animated icons for all 16 apps.",
-    "minimumAndroidSdk": 26
-  },
   "apps": [
     {
       "id": "openrouter-monitor",
       "name": "OpenRouter Monitor",
       "packageName": "io.epicencore.openroutermonitor",
-      "versionName": "1.3.0",
-      "versionCode": 3,
+      "versionName": "1.2.0",
+      "versionCode": 2,
       "status": "live",
       "statusLabel": "LIVE APK",
       "category": "AI & Analytics",
       "fileSize": "15.6 MB",
-      "downloadUrl": "https://releases.epicencore.io/downloads/OpenRouterMonitor/OpenRouterMonitor-v1.3.0.apk",
+      "downloadUrl": "https://github.com/zacaracaz/Releases/releases/download/portal-v2.0.1/OpenRouterMonitor-1.2.0.apk",
       "accentColor": "#EC4899",
       "summary": "Real-time LLM token usage, cost tracking, model performance benchmarks, and remaining credit monitoring for OpenRouter.",
       "whatsNew": "Direct OAuth PKCE flow, multi-key tracking, real-time widget refresh, and cost breakdown charts.",
@@ -32,19 +23,21 @@
         "Per-model token pricing benchmarks",
         "Low credit warning notifications"
       ],
-      "iconName": "ai"
+      "iconName": "ai",
+      "sha256": "a20126789a81749dcee50b214909745fe51286589610424c85269e5099712dd1",
+      "signingCertificateSha256": "19d0742454f2c03692b9037b7ddb979b0d165a0abc109ef135da8d756f361590"
     },
     {
       "id": "ante-up",
       "name": "Ante Up",
       "packageName": "io.epicencore.anteup",
       "versionName": "1.2.1",
-      "versionCode": 5,
+      "versionCode": 121,
       "status": "live",
       "statusLabel": "LIVE APK",
       "category": "Games",
       "fileSize": "9.2 MB",
-      "downloadUrl": "https://releases.epicencore.io/downloads/AnteUp/1.2.1/ante-up-1.2.1-debug.apk",
+      "downloadUrl": "https://github.com/zacaracaz/Releases/releases/download/portal-v2.0.1/AnteUp-1.2.1.apk",
       "accentColor": "#FF5C16",
       "summary": "Balatro deck-building poker roguelike companion & game. Play runs, calculate synergies, simulate joker builds, and strategize poker hands in real-time.",
       "whatsNew": "Added Joker synergy simulator, updated deck unlocks, and fixed touch response on Android.",
@@ -54,7 +47,9 @@
         "Real-time hand score calculator",
         "Cloud score synchronization"
       ],
-      "iconName": "game"
+      "iconName": "game",
+      "sha256": "29fde24f476bda8a7fc9f50a21ba5eb94d541e38e2c5d8e91edb218b45d77697",
+      "signingCertificateSha256": "dbefe73abfef7f635d734a2a2a73e32b4c71c743522c4a77ef2e43acaed18004"
     },
     {
       "id": "trip-trivia",
@@ -66,7 +61,7 @@
       "statusLabel": "BETA",
       "category": "Games & Travel",
       "fileSize": "13.1 MB",
-      "downloadUrl": "https://releases.epicencore.io/downloads/TripTrivia/v0.7.2/TripTrivia-0.7.2.apk",
+      "downloadUrl": "https://github.com/zacaracaz/Releases/releases/download/portal-v2.0.1/TripTrivia-0.7.2.apk",
       "accentColor": "#F97316",
       "summary": "Road trip geolocation trivia and family travel quiz. Answer questions about towns, landmarks, and Australian history as you drive past them.",
       "whatsNew": "Full 3,204 offline audio pack — all questions, facts, jokes, prompts & player names generated via free Australian English voice with persistent 500MB cache.",
@@ -76,19 +71,21 @@
         "Offline mode for remote highway travel",
         "Pass-the-phone multiplayer rounds"
       ],
-      "iconName": "trivia"
+      "iconName": "trivia",
+      "sha256": "9f9b472d6fe0fd9366358696bdda54dfec93e69a11f12d07f64d309eb43a0133",
+      "signingCertificateSha256": "19d0742454f2c03692b9037b7ddb979b0d165a0abc109ef135da8d756f361590"
     },
     {
       "id": "chrono-view",
       "name": "ChronoView",
       "packageName": "io.epicencore.chronoview",
       "versionName": "1.1.0",
-      "versionCode": 2,
+      "versionCode": 1,
       "status": "live",
       "statusLabel": "LIVE APK",
       "category": "Education",
       "fileSize": "15.5 MB",
-      "downloadUrl": "https://releases.epicencore.io/downloads/ChronoView/ChronoView-v1.1.0.apk",
+      "downloadUrl": "https://github.com/zacaracaz/Releases/releases/download/portal-v2.0.1/ChronoView-1.1.0.apk",
       "accentColor": "#7C3AED",
       "summary": "Temporal visualizer & interactive timeline explorer. Zoom effortlessly across millennia or drill down into micro-second historical sequences.",
       "whatsNew": "Multi-touch pinch zoom scaling, epoch comparison mode, and offline asset caching.",
@@ -98,19 +95,21 @@
         "Rich multimedia historical records",
         "Custom epoch bookmarking"
       ],
-      "iconName": "time"
+      "iconName": "time",
+      "sha256": "4b5bb4a179f468e34bcb3ff0ba5207f4517a27f897c438226f64e4e363f772b2",
+      "signingCertificateSha256": "19d0742454f2c03692b9037b7ddb979b0d165a0abc109ef135da8d756f361590"
     },
     {
       "id": "cards-here",
       "name": "CardsHere",
-      "packageName": "com.cardshere.app",
-      "versionName": "1.0.0",
-      "versionCode": 1,
+      "packageName": "au.com.janes.cardshere",
+      "versionName": "0.2.0",
+      "versionCode": 3,
       "status": "live",
       "statusLabel": "LIVE APK",
       "category": "Finance",
-      "fileSize": "3.4 MB",
-      "downloadUrl": "https://releases.epicencore.io/downloads/CardsHere/CardsHere-Klarna-Importer-Android-1.0.0.apk",
+      "fileSize": "8.3 MB",
+      "downloadUrl": "https://github.com/zacaracaz/Releases/releases/download/portal-v2.0.1/CardsHere-0.2.0.apk",
       "accentColor": "#ED2889",
       "summary": "Klarna statement & card transaction importer. Parse statements directly on-device, categorize merchant spending, and sync with accounting records.",
       "whatsNew": "Initial Android release with automatic PDF detection, merchant recognition, and CSV export.",
@@ -120,19 +119,21 @@
         "Categorized monthly summaries",
         "One-click spreadsheet export"
       ],
-      "iconName": "cards"
+      "iconName": "cards",
+      "sha256": "37281a83307076ab4e7d67f72273d03e537a8576360c332b47c4082f3bc7143a",
+      "signingCertificateSha256": "8cdc85e877788ba86b37d615bfc5cc21d8d20c1ee66142dcc88d323feb8d52ba"
     },
     {
       "id": "keys-here",
       "name": "KeysHere",
       "packageName": "io.epicencore.keyshere",
-      "versionName": "0.1.9",
-      "versionCode": 9,
+      "versionName": "0.1.0",
+      "versionCode": 1,
       "status": "live",
       "statusLabel": "PREVIEW",
       "category": "Security",
-      "fileSize": "104 MB",
-      "downloadUrl": "https://releases.epicencore.io/downloads/KeysHere/KeysHere-0.1.9-preview.apk",
+      "fileSize": "99.0 MB",
+      "downloadUrl": "https://github.com/zacaracaz/Releases/releases/download/portal-v2.0.1/KeysHere-0.1.0-preview.apk",
       "accentColor": "#10B981",
       "summary": "Ultra-secure credential and digital key vault. Zero-knowledge hardware-backed encryption, biometric unlock, and encrypted local backups.",
       "whatsNew": "Biometric prompt stabilization, secure clipboard clearing, and dark obsidian styling.",
@@ -142,19 +143,21 @@
         "Zero-knowledge encrypted vaults",
         "Encrypted local backup export"
       ],
-      "iconName": "security"
+      "iconName": "security",
+      "sha256": "e6e5de0bc6ae2c1493738ff0b1ff47ddd5aaaa10420ec09d8cf04a742c8f5f65",
+      "signingCertificateSha256": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c"
     },
     {
       "id": "click-n-call",
       "name": "ClickNCall",
-      "packageName": "io.epicencore.clickncall",
+      "packageName": "com.clickncall.app",
       "versionName": "1.0.0",
       "versionCode": 1,
       "status": "live",
       "statusLabel": "PREVIEW",
       "category": "Productivity",
       "fileSize": "8.3 MB",
-      "downloadUrl": "https://releases.epicencore.io/downloads/ClickNCall/ClickNCall-1.0.0-preview.apk",
+      "downloadUrl": "https://github.com/zacaracaz/Releases/releases/download/portal-v2.0.1/ClickNCall-1.0.0.apk",
       "accentColor": "#1B6BFF",
       "summary": "Instant tap-to-call direct contact directory. Quick-dial contacts, manage high-priority emergency lists, and eliminate dialing latency.",
       "whatsNew": "Preview build with rapid dial widget, smart search, and dual-SIM dispatch support.",
@@ -164,19 +167,21 @@
         "Clean dark distraction-free interface",
         "Instant contact filtering"
       ],
-      "iconName": "phone"
+      "iconName": "phone",
+      "sha256": "b1bdb4cfd72420cf2d7bdb01d3855fc1e358733438ffb3c0650ecf7482c5645f",
+      "signingCertificateSha256": "19d0742454f2c03692b9037b7ddb979b0d165a0abc109ef135da8d756f361590"
     },
     {
       "id": "trakks",
       "name": "Trakks",
-      "packageName": "io.epicencore.trakks",
+      "packageName": "au.com.trakks.rater",
       "versionName": "0.95.18",
       "versionCode": 9518,
       "status": "live",
       "statusLabel": "LIVE APK",
       "category": "Automotive",
-      "fileSize": "2.2 MB",
-      "downloadUrl": "https://releases.epicencore.io/downloads/Trakks/android-latest/Trakks.v0.95.18.apk",
+      "fileSize": "2.1 MB",
+      "downloadUrl": "https://github.com/zacaracaz/Releases/releases/download/portal-v2.0.1/Trakks.v0.95.18.apk",
       "accentColor": "#3B82F6",
       "summary": "Vehicle rating, telemetry, BYD data logger and fleet diagnostic analyzer. Log battery health, trip energy consumption, and vehicle metrics.",
       "whatsNew": "v0.95.17 BYD CAN-bus telemetry parser, instant trip logger, and offline SQLite storage.",
@@ -186,7 +191,9 @@
         "Trip route energy expenditure calculation",
         "Compact 2.2 MB install package"
       ],
-      "iconName": "auto"
+      "iconName": "auto",
+      "sha256": "429971c9f0c50d05da48dc8203978c5f9d29428cf4ef857ce08118f693cf7ddc",
+      "signingCertificateSha256": "777f0fff439bab21ee1f1dbbbe8e31464ffaa9d4de0cd6d439f9e7ef1bfd148a"
     },
     {
       "id": "codex-deck",
@@ -364,5 +371,14 @@
       ],
       "iconName": "home"
     }
-  ]
+  ],
+  "portalRelease": {
+    "versionName": "2.0.1",
+    "versionCode": 4,
+    "downloadUrl": "https://github.com/zacaracaz/Releases/releases/download/portal-v2.0.1/EpicEncorePortal-2.0.1.apk",
+    "fileSize": "10.7 MB",
+    "sha256": "061344448cd1853b1f81a987b945caed08d64e2e76a9f301e7e74f60849d1127",
+    "whatsNew": "Repairs all eight app downloads with verified public release assets, detects installed app versions on modern Android, and validates every APK before installation.",
+    "minimumAndroidSdk": 26
+  }
 }
