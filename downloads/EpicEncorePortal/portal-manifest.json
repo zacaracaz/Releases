@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-09-13",
-  "portalVersion": "2.0.1",
+  "portalVersion": "2.0.2",
   "featuredAppId": "openrouter-monitor",
   "apps": [
     {
@@ -373,12 +373,12 @@
     }
   ],
   "portalRelease": {
-    "versionName": "2.0.1",
-    "versionCode": 4,
-    "downloadUrl": "https://github.com/zacaracaz/Releases/releases/download/portal-v2.0.1/EpicEncorePortal-2.0.1.apk",
+    "versionName": "2.0.2",
+    "versionCode": 5,
+    "downloadUrl": "https://github.com/zacaracaz/Releases/releases/download/portal-v2.0.2/EpicEncorePortal-2.0.2.apk",
     "fileSize": "10.7 MB",
-    "sha256": "061344448cd1853b1f81a987b945caed08d64e2e76a9f301e7e74f60849d1127",
-    "whatsNew": "Repairs all eight app downloads with verified public release assets, detects installed app versions on modern Android, and validates every APK before installation.",
+    "sha256": "cb2e9daa424242ae02f5c5b4e6590ad68169df474ee8de064dd48ab5cbf1cef9",
+    "whatsNew": "The update control now clearly says Check for updates and shows a visible checking state.",
     "minimumAndroidSdk": 26
   }
 }

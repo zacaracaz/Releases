@@ -4,17 +4,17 @@
     {
       "name": "EpicEncore Portal",
       "description": "Native Android catalogue, installer, and secure update portal for EpicEncore apps.",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "releaseState": "Alpha",
       "repo": "zacaracaz/EpicEncore",
       "downloads": [
         {
           "platform": "Android",
           "label": "APK",
-          "url": "https://github.com/zacaracaz/Releases/releases/download/portal-v2.0.1/EpicEncorePortal-2.0.1.apk",
+          "url": "https://github.com/zacaracaz/Releases/releases/download/portal-v2.0.2/EpicEncorePortal-2.0.2.apk",
           "size": "10.7 MB",
-          "sha256": "061344448cd1853b1f81a987b945caed08d64e2e76a9f301e7e74f60849d1127",
-          "note": "Repaired catalogue downloads, installed-version detection, and verified app APKs"
+          "sha256": "cb2e9daa424242ae02f5c5b4e6590ad68169df474ee8de064dd48ab5cbf1cef9",
+          "note": "Clearly labelled Check for updates action, repaired downloads, and verified app APKs"
         }
       ]
     },
