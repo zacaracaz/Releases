@@ -1,7 +1,16 @@
 {
-  "updatedAt": "2026-09-11",
-  "storeVersion": "1.0.0",
+  "updatedAt": "2026-09-13",
+  "storeVersion": "1.1.0",
   "featuredAppId": "openrouter-monitor",
+  "storeRelease": {
+    "versionName": "1.1.0",
+    "versionCode": 2,
+    "downloadUrl": "https://github.com/zacaracaz/Releases/releases/download/store-v1.1.0/EpicEncoreStore-1.1.0.apk",
+    "fileSize": "10.7 MB",
+    "sha256": "8a9d9694de31c331eee48d90cdcfbb361ac281aef44664bb709769313c804a4c",
+    "whatsNew": "Built-in Store update checks, cryptographically verified self-update downloads, product-specific animated icons for all 16 apps, and a reliable catalogue refresh endpoint.",
+    "minimumAndroidSdk": 26
+  },
   "apps": [
     {
       "id": "openrouter-monitor",
