@@ -43,9 +43,10 @@ Central EpicEncore download page for all projects. Hosted on GitHub Pages.
 ## Security
 
 - Static page only — no backend, no forms, no user input collection.
-- CSP header restricts scripts/styles to self.
+- CSP restricts scripts to local files; styles permit the inline layout and Google Fonts, with fonts restricted to self and Google Fonts.
 - All external links use `rel="noopener"`.
 - All manifest values are HTML-escaped before rendering.
+- Download links accept only HTTPS GitHub Release paths under the EpicEncore owner; invalid URLs render as unavailable.
 - A security notice reminds users to only download from this page or official EE GitHub Releases.
 
 ## Local preview
@@ -57,6 +58,8 @@ python -m http.server 8080
 ```
 
 Then visit http://localhost:8080.
+
+Run the catalogue security checks with `node --test tests/catalogue.test.mjs`.
 
 ## Governance
 
