@@ -2,6 +2,12 @@
 
 All notable changes to Releases are documented here.
 
+## [0.1.5] - 2026-10-01
+
+### Changed
+
+- Publish the signed ChronoView Android 1.4.5 APK and advertise it in the EpicEncore Portal update manifest.
+
 ## [0.1.4] - 2026-09-30
 
 ### Changed

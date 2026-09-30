@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13",
+  "updatedAt": "2026-10-01",
   "portalVersion": "2.0.2",
   "featuredAppId": "openrouter-monitor",
   "apps": [
@@ -79,16 +79,16 @@
       "id": "chrono-view",
       "name": "ChronoView",
       "packageName": "io.epicencore.chronoview",
-      "versionName": "1.1.0",
-      "versionCode": 1,
+      "versionName": "1.4.5",
+      "versionCode": 5,
       "status": "live",
       "statusLabel": "LIVE APK",
       "category": "Education",
-      "fileSize": "15.5 MB",
-      "downloadUrl": "https://github.com/zacaracaz/Releases/releases/download/portal-v2.0.1/ChronoView-1.1.0.apk",
+      "fileSize": "10.6 MB",
+      "downloadUrl": "https://github.com/zacaracaz/Releases/releases/download/chronoview-v1.4.5/ChronoView-1.4.5.apk",
       "accentColor": "#7C3AED",
       "summary": "Temporal visualizer & interactive timeline explorer. Zoom effortlessly across millennia or drill down into micro-second historical sequences.",
-      "whatsNew": "Multi-touch pinch zoom scaling, epoch comparison mode, and offline asset caching.",
+      "whatsNew": "Version-only update for testing upgrades through EpicEncore Portal.",
       "features": [
         "Smooth non-linear time navigation",
         "Interactive historical timeline layers",
@@ -96,7 +96,7 @@
         "Custom epoch bookmarking"
       ],
       "iconName": "time",
-      "sha256": "4b5bb4a179f468e34bcb3ff0ba5207f4517a27f897c438226f64e4e363f772b2",
+      "sha256": "8380e1711ea7027e9abe62bf6a0d7d4a3ae9bebd1aeaaed951989f86e3aede40",
       "signingCertificateSha256": "19d0742454f2c03692b9037b7ddb979b0d165a0abc109ef135da8d756f361590"
     },
     {
