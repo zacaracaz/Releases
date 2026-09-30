@@ -2,6 +2,12 @@
 
 All notable changes to Releases are documented here.
 
+## [0.1.3] - 2026-09-30
+
+### Changed
+
+- List the TripTrivia 0.8.2 Android APK with the repaired in-app updater and verified checksum.
+
 ## [0.1.2] - 2026-09-30
 
 ### Changed
