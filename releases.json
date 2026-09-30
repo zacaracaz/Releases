@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13",
+  "updated": "2026-09-30",
   "projects": [
     {
       "name": "EpicEncore Portal",
@@ -21,17 +21,17 @@
     {
       "name": "TripTrivia",
       "description": "Audio-first road trip trivia with a live AI host for the whole family.",
-      "version": "0.1.0",
+      "version": "0.8.1",
       "releaseState": "Alpha",
       "repo": "zacaracaz/TripTrivia",
       "downloads": [
         {
           "platform": "Android",
           "label": "APK",
-          "url": "https://github.com/zacaracaz/TripTrivia/releases/latest",
-          "size": null,
-          "sha256": null,
-          "note": "Available via GitHub Releases"
+          "url": "https://github.com/zacaracaz/Releases/releases/download/triptrivia-v0.8.1/TripTrivia-0.8.1.apk",
+          "size": "14.2 MB",
+          "sha256": "3ba610b192963cdac1cee7eae91bc59cdc97433c65d47ca65c6f56c24021963b",
+          "note": "Sunlit Postcard Android build. Android Auto game screen is for parked use."
         }
       ]
     }

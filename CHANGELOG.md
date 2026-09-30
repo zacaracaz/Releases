@@ -2,6 +2,12 @@
 
 All notable changes to Releases are documented here.
 
+## [0.1.2] - 2026-09-30
+
+### Changed
+
+- Add the signed TripTrivia 0.8.1 Android APK to the catalogue with its exact download URL and checksum.
+
 ## [0.1.1] - 2026-09-22
 
 ### Security

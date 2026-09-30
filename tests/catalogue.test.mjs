@@ -16,12 +16,12 @@ async function render(projects) {
 }
 const project = (url, extra = {}) => ({ name: 'Example', version: '1.0.0', downloads: [{ url, label: 'APK', platform: 'Android' }], ...extra });
 
-test('keeps the real catalogue links and distinguishes release placeholders', async () => {
+test('keeps the real catalogue download links', async () => {
   const manifest = JSON.parse(readFileSync(new URL('../releases.json', import.meta.url), 'utf8'));
   const html = await render(manifest.projects);
   for (const item of manifest.projects.flatMap(item => item.downloads)) assert.ok(html.includes(item.url));
   assert.ok(html.includes('>Download</a>'));
-  assert.ok(html.includes('>View releases</a>'));
+  assert.ok(!html.includes('Download unavailable'));
 });
 
 test('escapes quoted attributes and markup while constraining state classes', async () => {
