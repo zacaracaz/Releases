@@ -2,6 +2,12 @@
 
 All notable changes to Releases are documented here.
 
+## [0.1.4] - 2026-09-30
+
+### Changed
+
+- Promote TripTrivia 0.8.3 with the app update check running before optional audio syncing.
+
 ## [0.1.3] - 2026-09-30
 
 ### Changed

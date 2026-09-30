@@ -21,17 +21,17 @@
     {
       "name": "TripTrivia",
       "description": "Audio-first road trip trivia with a live AI host for the whole family.",
-      "version": "0.8.2",
+      "version": "0.8.3",
       "releaseState": "Alpha",
       "repo": "zacaracaz/TripTrivia",
       "downloads": [
         {
           "platform": "Android",
           "label": "APK",
-          "url": "https://github.com/zacaracaz/Releases/releases/download/triptrivia-v0.8.2/TripTrivia-0.8.2.apk",
+          "url": "https://github.com/zacaracaz/Releases/releases/download/triptrivia-v0.8.3/TripTrivia-0.8.3.apk",
           "size": "14.2 MB",
-          "sha256": "f4a5a360607c0858c2c740f5dd46d23b36f6174dfdd5737b518d4536aa7b14c7",
-          "note": "In-app updates now use this release catalogue and verify the APK checksum. Android Auto game screen is for parked use."
+          "sha256": "42ba130812250b781edfd0df7077162e9062afad03857fb99c35d86844946796",
+          "note": "In-app updates now check this catalogue first and verify the APK checksum. Android Auto game screen is for parked use."
         }
       ]
     }
